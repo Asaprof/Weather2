@@ -1,0 +1,150 @@
+body {
+    background-color: #d9f1f6;
+}
+
+.container {
+    vertical-align: top;
+    display: inline-block;
+    margin: -10px 90px;
+}
+
+.nav{
+    margin: 50px;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+.nav-button {
+    font-family: "Open Sans", Sans-Serif;
+    text-decoration: none;
+    color: #666;
+}
+
+.nav-button:focus {
+    color: black;
+    text-decoration-line: underline;
+}
+
+.weather {
+    margin-top: 4em;
+    display: inline-block;
+    width: 650px;
+    height: 225px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.5);
+
+}
+
+.transactions {
+    margin: 4em auto;
+    width: 650px;
+    height: fit-content;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.5);
+}
+
+.add {
+    margin-top: 4em;
+    width: 650px;
+    height: 85px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.5);
+}
+
+
+.add-button {
+    background-color: #aaaaaa;
+    text-align: center;
+    line-height: 90px;
+    font-size: 5em;
+    font-weight: bold;
+    float: right;
+    height: 100%;
+    width: 120px;
+    border-radius: 0 15px 15px 0;
+}
+
+.inp {
+    height: 80px;
+    width: 462px;
+    border: none;
+    outline: none;
+    border-radius: 15px 0 0 15px;
+    font-size: 3em;
+    padding-left: 30px;
+    font-family: "Open Sans", Sans-Serif;
+    font-weight: lighter;
+}
+
+.plus {
+    vertical-align: middle;
+}
+
+.info {
+    float: left;
+    padding: 40px 40px;
+    text-align: left;
+    font-family: "Open Sans", Sans-Serif;
+    font-size: 1.2em;
+}
+
+.degrees {
+    float: right;
+}
+
+.update {
+    float: right;
+    padding: 15px 40px 0 0;
+    color: #aaa;
+    font-size: 1em;
+    font-family: "Open Sans", Sans-Serif;
+    margin-bottom: .5em;
+}
+
+.temperature {
+    vertical-align: baseline;
+    font-size: 10em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.country {
+    font-size: 2.5em;
+}
+
+.precipitation {
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.main-info {
+    color: #aaa;
+}
+
+.deg-char {
+    vertical-align: 3em;
+    font-size: .2em;
+}
+
+tbody th {
+    text-align: left;
+    padding: .4em 1em;
+    border-top: solid 1px gray;
+    font-size: 2.8em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+thead th {
+    font-size: 2.8em;
+    text-align: left;
+    padding: .4em 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
