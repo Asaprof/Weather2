@@ -10,8 +10,8 @@
                     <th>Transactions</th>
                 </thead>
                 <tbody class="transactions-data">
-                    <tr v-for="artist in artists">
-                        <th>{{ artist }}</th>
+                    <tr v-for="value in values">
+                        <th>{{ value }}</th>
                     </tr>
                 </tbody>
             </table>
@@ -25,7 +25,7 @@
         new Vue({
             el: '#app',
             data: {
-                artists: ['qwe', 'rty', 'uio']
+                values: ['qwe', 'rty', 'uio']
             }
         })
     }
